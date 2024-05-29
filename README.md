@@ -1,2 +1,2 @@
-# VS-Extension
-External source for the Code Optimizations Extension for VS
+# Code Optimizations extension (preview) for Visual Studio 
+Please stay tuned, details coming on May 30th 2024.

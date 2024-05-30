@@ -8,7 +8,7 @@
 # Prerequisites 
 ## GitHub Account
 For the extension to work, we need your GitHub account to meet the following criteria:
-1.	**Copilot subscription.** If you don’t have it, this page explains how you can get it for free: [Copilot organization | Microsoft Open Source Management](https://repos.opensource.microsoft.com/orgs/MicrosoftCopilot).
+1.	**Copilot subscription.**
 2.	**Public association within the [Copilot-Code-Optimizations](https://github.com/copilot-code-optimizations) organiztion on GitHub.** We did invite you to this organization, good news you have accepted membership - and you can read these instructions. There is one more thing to validate - your membership in this organization needs to be public (if it's not the extension will not be able to connect to the LLM backend and generate a code fix). A quick way to verify that is to search for your GitHub username within the members list and see if the affiliation is public, as indicated in the screenshot. 
 
 - [Members · People · copilot-code-optimizations (github.com)](https://github.com/orgs/copilot-code-optimizations/people)

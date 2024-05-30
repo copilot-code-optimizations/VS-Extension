@@ -25,7 +25,7 @@ For the extension to work, we need your GitHub account to meet the following cri
 ## Visual Studio and GitHub Copilot Chat
 1.	Current versions of extensions were tested with Visual Studio 17.9, 17.10 and 17.11. If you are using a different version of Visual Studio and the extension is not working, please let us know
 2.	Open Visual Studio and ensure you are signed in with (a) your GitHub account and (b) the account that you used to access Azure portal. You can validate on the top right corner of Visual Studio. If one account is missing, add it. Without both accounts added the current version of the Code Optimizations extension will not be able to work correctly. 
-<img src="IMAGES/Accounts1.png" width="600" />
+<img src="IMAGES/Accounts1.png" width="200" />
 
 3. Open GitHub Copiulot chat using menu command **View -> GitHub Copilot Chat**. If it's not available and you are using Visual Studio 17.9 or older, please make sure you have installed the GitHub Copilot Chat extension using **Extensions -> Manage Extensions...**
 

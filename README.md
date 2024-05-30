@@ -9,7 +9,8 @@
 ## GitHub Account
 For the extension to work, we need your GitHub account to meet the following criteria:
 1.	**Copilot subscription.**
-2.	**Public association within the [Copilot-Code-Optimizations](https://github.com/copilot-code-optimizations) organiztion on GitHub.** We did invite you to this organization, good news you have accepted membership - and you can read these instructions. There is one more thing to validate - your membership in this organization needs to be public (if it's not the extension will not be able to connect to the LLM backend and generate a code fix). A quick way to verify that is to search for your GitHub username within the members list and see if the affiliation is public, as indicated in the screenshot. 
+2.	**Public association within the [Copilot-Code-Optimizations](https://github.com/copilot-code-optimizations) organiztion on GitHub.**
+   You were invited to this organization - good news you have accepted membership - and you can read these instructions. There is one more thing to validate - your membership in this organization needs to be public (if it's not the extension will not be able to generate a code fix). A quick way to verify - open th elink below, search for your name and validate affiliation is public, as indicated in the screenshot. If it's not change it from Private to Public.
 
 - [Members · People · copilot-code-optimizations (github.com)](https://github.com/orgs/copilot-code-optimizations/people)
 
@@ -27,7 +28,7 @@ For the extension to work, we need your GitHub account to meet the following cri
 2.	Open Visual Studio and ensure you are signed in with (a) your GitHub account and (b) the account that you used to access Azure portal. You can validate on the top right corner of Visual Studio. If one account is missing, add it. Without both accounts added the current version of the Code Optimizations extension will not be able to work correctly. 
 <img src="IMAGES/Accounts1.png" width="200" />
 
-3. Open GitHub Copiulot chat using menu command **View -> GitHub Copilot Chat**. If it's not available and you are using Visual Studio 17.9 or older, please make sure you have installed the GitHub Copilot Chat extension using **Extensions -> Manage Extensions...**
+3. Open GitHub Copilot chat using menu command **View -> GitHub Copilot Chat**. If it's not available and you are using Visual Studio 17.9 or older, please make sure you have installed the GitHub Copilot Chat extension using **Extensions -> Manage Extensions...**
 
 # Add Code Optimizations (preview) feed into the extensions gallery 
 1. Launch Visual Studio
@@ -41,30 +42,34 @@ For the extension to work, we need your GitHub account to meet the following cri
 
 # Install the Code Optimizations (preview) extension
 1. Now we can install the extension from the **Extensions -> Manage Extensions...**
-2. Find the Code Optimizations category under **Visual Studio Marketplace** category
+2. Find the Code Optimizations category under **Visual Studio Marketplace** 
 <img src="IMAGES/Installation3.png" width="600" />
 
 4. If you are using the New Extension Manager "UI Refresh" you will find the category in ... -> Browsing Location -> Code Optimizations
 <img src="IMAGES/Installation4.png" width="600" />
    
 6. Install the version that matches your Visual Studio version
+7. Yes, you need to close the Visual Studio for the installation to start. Please pay attention to the installation dialog, your consent maybe neccesary
+8. One installation completes, please restart Visual Studio
    
 # Usage 
 
 ### Visual Studio Extension
 
-1. Open the repo you have insights for in Code Optimizations.
+1. Open the repo you have insights for in Code Optimizations in Visual Studio
 2. Open GitHub Copilot Chat
 3. The Code Optimizations (preview) extension introduces an "agent" called `@code_optimizations` with a few commands or *skills* that let you interface with Code Optimizations issues. To invoke the extension,  type `@code_optimizations` followed by the skill and the necessary parameters:
 
 #### @code_optimizations /connect <Application_Insights_Resource_Name>
 
-The command will pull the top issues from Code Optimizations, map them to source code in your local repo and try suggesting fixes / recommendations. It automatically will display the first fix it's able to offer. To generate fixes for other issues, follow the instructions in the Copilot response.
+The command will pull the top issues from Code Optimizations, map them to source code in your local repo and try suggesting fixes / recommendations. It automatically will generate the first fix it's able to offer. To generate fixes for other issues, follow the instructions in the Copilot response.
 
 <img src="IMAGES/CodeOptimizations2.png" width="800" />
 
 # Feedback
 Your feedback is important to us! If you have any questions or suggestions, please reach out to our email alias: codeoptimizations@microsoft.com or open an issue in this repo.
+
+Thank you! ❤️
 
 ## Trademarks
 

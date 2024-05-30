@@ -13,8 +13,7 @@ For the extension to work, we need your GitHub account to meet the following cri
 
 - [Members · People · copilot-code-optimizations (github.com)](https://github.com/orgs/copilot-code-optimizations/people)
 
-<img src="IMAGES/9.png" width="200" />
-![](IMAGES/9.png)
+<img src="IMAGES/9.png" width="400" />
 
 ## Application Insights Code Optimizations
 1. Make sure Azure Application Insights and Application Insights Profiler is enabled for your .NET apps. If not, follow these instructions [Application Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/create-workspace-resource?tabs=bicep) and [Application Insights Profiler](https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler).

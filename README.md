@@ -50,7 +50,7 @@ For the extension to work - your GitHub account needs to meet the following crit
    
 6. Install the version that matches your Visual Studio version
 7. Yes, you need to close the Visual Studio for the installation to start. Please pay attention to the installation dialog, your consent maybe neccesary
-8. One installation completes, please restart Visual Studio
+8. Once installation completes, please restart Visual Studio
    
 # Usage 
 
@@ -62,7 +62,7 @@ For the extension to work - your GitHub account needs to meet the following crit
 
 #### @code_optimizations /connect <Application_Insights_Resource_Name>
 
-The command will pull the top issues from Code Optimizations, map them to source code in your local repo and try suggesting fixes / recommendations. It automatically will generate the first fix it's able to offer. To generate fixes for other issues, follow the instructions in the Copilot response.
+The command will pull the top issues from Code Optimizations, map them to source code in your local repo and try suggesting fixes / recommendations. It will automatically generate the first fix it's able to offer. To generate fixes for other issues, follow the instructions in the Copilot response.
 
 <img src="IMAGES/CodeOptimizations2.png" width="800" />
 

@@ -3,8 +3,6 @@
 1. [PREREQUISITES](#Prerequisites)
 2. [INSTALLATION](#Installation)
 3. [USAGE](#Usage)
-  <br/>a. [Option 1: With Code Optimizations (more setup time required, but more accurate fixes)](#Option1)
-  <br/>b. [Option 2: Without Code Optimizations (less setup time required, but less accurate fixes)](#Option2)
 
 <a name="Prerequisites"></a>
 # Prerequisites 
@@ -56,11 +54,9 @@ For the extension to work, we need your GitHub account to meet the following cri
 
 #### @code_optimizations /connect <Application_Insights_Resource_Name>
 
+The command will pull the top issues from Code Optimizations, map them to source code in your local repo and try suggesting fixes / recommendations. It automatically will display the first fix it's able to offer. To generate fixes for other issues, follow the instructions in the Copilot response.
 
-The command will pull in the top issues from Code Optimizations, map them to source code in your local repo and try suggesting fixes / recommendations.
-
-#### @code_optimizations /optimize
-
+![](IMAGES/CodeOptimizations2.png)
 
 # Feedback
 Your feedback is important to us! If you have any questions or suggestions, please reach out to our email alias: codeoptimizations@microsoft.com or open an issue in this repo.

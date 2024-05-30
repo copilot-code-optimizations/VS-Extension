@@ -13,6 +13,7 @@ For the extension to work, we need your GitHub account to meet the following cri
 
 - [Members · People · copilot-code-optimizations (github.com)](https://github.com/orgs/copilot-code-optimizations/people)
 
+<img src="IMAGES/9.png" width="200" />
 ![](IMAGES/9.png)
 
 ## Application Insights Code Optimizations

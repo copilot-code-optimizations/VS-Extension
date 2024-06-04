@@ -7,14 +7,7 @@
 <a name="Prerequisites"></a>
 # Prerequisites 
 ## GitHub Account
-For the extension to work - your GitHub account needs to meet the following criteria:
-1.	**Github Copilot subscription**
-2.	**Public association within the [Copilot-Code-Optimizations](https://github.com/copilot-code-optimizations) organiztion on GitHub.**
-   You were invited to this organization - good news you have accepted membership - and you can read these instructions. There is one more thing to validate - your membership in this organization needs to be public (if it's not the extension will not be able to generate a code fix). A quick way to verify - open the link below, search for your name and validate affiliation is public, as indicated in the screenshot. If it's not change it from Private to Public.
-
-- [Members · People · copilot-code-optimizations (github.com)](https://github.com/orgs/copilot-code-optimizations/people)
-
-<img src="IMAGES/9.png" width="600" />
+For the extension to work - you need to have a Github Copilot subscription.
 
 ## Application Insights Code Optimizations
 1. Make sure Azure Application Insights and Application Insights Profiler is enabled for your .NET apps. If not, follow these instructions [Application Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/create-workspace-resource?tabs=bicep) and [Application Insights Profiler](https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler).

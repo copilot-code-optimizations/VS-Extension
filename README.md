@@ -8,7 +8,7 @@
 # Prerequisites 
 ## GitHub Account
 For the extension to work - your GitHub account needs to meet the following criteria:
-1.	**Copilot subscription.**
+1.	**Github Copilot subscription**
 2.	**Public association within the [Copilot-Code-Optimizations](https://github.com/copilot-code-optimizations) organiztion on GitHub.**
    You were invited to this organization - good news you have accepted membership - and you can read these instructions. There is one more thing to validate - your membership in this organization needs to be public (if it's not the extension will not be able to generate a code fix). A quick way to verify - open the link below, search for your name and validate affiliation is public, as indicated in the screenshot. If it's not change it from Private to Public.
 

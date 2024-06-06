@@ -34,9 +34,9 @@ For the extension to work - you need to have a Github Copilot subscription.
 <a name="Installation"></a>
 
 # Install the Code Optimizations (preview) extension
-
+ 
 ---
-**NOTE**
+NOTE
 If you have upgraded your Visual Studio 17.9 with Code Optimizations extension to 17.10+, please un-install the Code Optimizations extension and install the extension intended for 17.10+. It's available in the same feed in your Visual Studio. Why? The GitHub Copilot Chat is built into VS 17.10+ and the architecture has changed a bit, so a different extension version is necessary. The customer experience remains un-changed.
 ---
 

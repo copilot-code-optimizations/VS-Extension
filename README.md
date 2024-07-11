@@ -10,15 +10,15 @@
 For the extension to work - you need to have a Github Copilot subscription.
 
 ## Application Insights Code Optimizations
-1. Make sure Azure Application Insights and Application Insights Profiler is enabled for your .NET apps. If not, follow these instructions [Application Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/create-workspace-resource?tabs=bicep) and [Application Insights Profiler](https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler).
+1. Make sure Azure Application Insights and Application Insights Profiler are enabled for your .NET apps. If not, please follow these instructions [Application Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/create-workspace-resource?tabs=bicep) and [Application Insights Profiler](https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler) to enable them.
 2. Validate that Code Optimizations are identified for your application - go into the **Performance** blade of your Application Insights resource and click on “**Code Optimizations**” as shown below
 <img src="IMAGES/CodeOptimizations1.png" width="600" />
 
-4. Please note (a) the Application Insights resource name, (b) the account that you are using to sign into Azure portal.
+4. Please note down (a) the Application Insights resource name, (b) the account that you are using to sign into Azure portal.
 
 ## Visual Studio and GitHub Copilot Chat
 1.	Current versions of extensions were tested with Visual Studio 17.9, 17.10 and 17.11. If you are using a different version of Visual Studio and the extension is not working, please let us know
-2.	Open Visual Studio and ensure you are signed in with (a) your GitHub account and (b) the account that you used to access Azure portal. You can validate on the top right corner of Visual Studio. If one account is missing, add it. Without both accounts added the current version of the Code Optimizations extension will not be able to work correctly. 
+2.	Open Visual Studio and ensure you are signed in with both - your GitHub account and the account that you used to access Azure portal. You can validate on the top right corner of Visual Studio. If one account is missing, add it. Without both accounts added, the current version of the Code Optimizations extension will not work correctly. 
 <img src="IMAGES/Accounts1.png" width="200" />
 
 3. Open GitHub Copilot chat using menu command **View -> GitHub Copilot Chat**. If it's not available and you are using Visual Studio 17.9 or older, please make sure you have installed the GitHub Copilot Chat extension using **Extensions -> Manage Extensions...**
@@ -37,7 +37,7 @@ For the extension to work - you need to have a Github Copilot subscription.
 
 
 **NOTE**
-If you have upgraded your Visual Studio 17.9 with Code Optimizations extension to 17.10+, please un-install the Code Optimizations extension and install the extension intended for 17.10+. It's available in the same feed in your Visual Studio. Why? The GitHub Copilot Chat is built into VS 17.10+ and the architecture has changed a bit, so a different extension version is necessary. The customer experience remains un-changed.
+If you have upgraded your Visual Studio 17.9 with Code Optimizations extension to Visial Studio 17.10 or 17.11, please un-install the Code Optimizations extension and install the extension intended for 17.10 and 17.11. It's available in the same feed in your Visual Studio. Why? The GitHub Copilot Chat is built into VS 17.10+ and the architecture has changed a bit, so a different extension version is necessary. The chat experience remains un-changed.
 
 
 1. Now we can install the extension from the **Extensions -> Manage Extensions...**
@@ -49,19 +49,20 @@ If you have upgraded your Visual Studio 17.9 with Code Optimizations extension t
    
 6. Install the version that matches your Visual Studio version
 7. Yes, you need to close the Visual Studio for the installation to start. Please pay attention to the installation dialog, your consent maybe neccesary
-8. Once installation completes, please restart Visual Studio
+8. Once installation completes, please start Visual Studio
    
 # Usage 
 
 ### Visual Studio Extension
 
-1. Open the repo you have insights for in Code Optimizations in Visual Studio
-2. Open GitHub Copilot Chat
-3. The Code Optimizations (preview) extension introduces an "agent" called `@code_optimizations` with a few commands or *skills* that let you interface with Code Optimizations issues. To invoke the extension,  type `@code_optimizations` followed by the skill and the necessary parameters:
+1. Open VS
+2. Open the repo for the app you have insights for in Code Optimizations
+3. Open GitHub Copilot Chat
+4. The Code Optimizations (preview) extension introduces an "agent" called `@code_optimizations` with a few commands or *skills* that let you interface with Code Optimizations issues. To invoke the extension,  type `@code_optimizations` followed by the skill and the necessary parameters:
 
 #### @code_optimizations /connect <Application_Insights_Resource_Name>
 
-The command will pull the top issues from Code Optimizations, map them to source code in your local repo and try suggesting fixes / recommendations. It will automatically generate the first fix it's able to offer. To generate fixes for other issues, follow the instructions in the Copilot response.
+where <Application_Insights_Resource_Name> is the name of the Appliation Insights. The command will pull the top issues from Code Optimizations, map them to source code in your local repo and try suggesting fixes / recommendations. It will automatically generate the first fix it's able to offer. To generate fixes for other issues, follow the instructions in the Copilot response.
 
 <img src="IMAGES/CodeOptimizations2.png" width="800" />
 

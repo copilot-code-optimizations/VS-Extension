@@ -62,7 +62,7 @@ If you have upgraded your Visual Studio 17.9 with Code Optimizations extension t
 
 #### @code_optimizations /connect <Application_Insights_Resource_Name>
 
-where <Application_Insights_Resource_Name> is the name of the Appliation Insights. The command will pull the top issues from Code Optimizations, map them to source code in your local repo and try suggesting fixes / recommendations. It will automatically generate the first fix it's able to offer. To generate fixes for other issues, follow the instructions in the Copilot response.
+where <Application_Insights_Resource_Name> is the name of the Application Insights resource. The command will pull the top issues from Code Optimizations, map them to source code in your local repo and try suggesting fixes / recommendations. It will automatically generate the first fix it's able to offer. To generate fixes for other issues, follow the instructions in the Copilot response.
 
 <img src="IMAGES/CodeOptimizations2.png" width="800" />
 

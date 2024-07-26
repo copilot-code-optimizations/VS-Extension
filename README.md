@@ -7,8 +7,14 @@
 <a name="Prerequisites"></a>
 # 1. Prerequisites 
 ## 1.1. Your GitHub Account Settings
+
+
 1.1.1. Please make sure your GitHub account has a valid Github Copilot subscription.
+
+
 1.1.2. Your GitHub account needs to be part of this organization "copilot-code-optimizations" to enable you access this preview feature. If you have not done already, please fill in this form https://aka.ms/CodeOptimizations/PreviewFeatures, our team will send you the invitation.
+
+
 1.1.3. Once you accept the invitation to join this organization, please change your memebership from Private to Public
 
 

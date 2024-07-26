@@ -15,7 +15,7 @@
 1.1.2. Your GitHub account needs to be part of this organization "copilot-code-optimizations" to enable you access this preview feature. If you have not done already, please fill in this form https://aka.ms/CodeOptimizations/PreviewFeatures, our team will send you the invitation.
 
 
-1.1.3. Once you accept the invitation to join this organization, please change your memebership from Private to Public
+1.1.3. Once you accept the invitation to join this organization, please change your membership from Private to Public on settings page https://github.com/orgs/copilot-code-optimizations/people.
 
 
 ## 1.2. Validate your Application Insights Code Optimizations
@@ -39,7 +39,7 @@
 <img src="IMAGES/Accounts1.png" width="200" />
 
 
-1.3.3. Open GitHub Copilot chat using menu command **View -> GitHub Copilot Chat**. If it's not available and you are using Visual Studio 17.9 or older, please make sure you have installed the GitHub Copilot Chat extension using **Extensions -> Manage Extensions...**
+1.3.3. Open GitHub Copilot chat using menu command **View -> GitHub Copilot Chat**. If it's not available and you are using Visual Studio 17.9 or older, please make sure you have installed the GitHub Copilot Chat extension using **Extensions -> Manage Extensions...**.
 
 
 # 1.4. Add Code Optimizations (preview) feed into the extensions gallery 
@@ -51,7 +51,7 @@
 1.4.2. Open Options dialog using **Tools-> Options...** command, then select **Extensions**
 
 
-1.4.3. Add a new feed named "Code Optimizations" with the URL "https://salmon-coast-03fbc8d1e.5.azurestaticapps.net/feed.xml"
+1.4.3. Add a new feed named "Code Optimizations" with the URL "https://salmon-coast-03fbc8d1e.5.azurestaticapps.net/feed.xml".
 <img src="IMAGES/Installation2.png" width="600" />
 
 
@@ -86,9 +86,12 @@ If you upgrade your Visual Studio 17.9 with Code Optimizations extension to Visu
 
 ### Visual Studio Extension
 
-3.1.1. Open VS  
+3.1.1. Open VS\
+
 3.1.2. Open the repo for the app you have insights for in Code Optimizations\
-3.1.3. Open GitHub Copilot Chat
+
+3.1.3. Open GitHub Copilot Chat\
+
 3.1.4. The Code Optimizations (preview) extension introduces an "agent" called `@code_optimizations` with a few commands or *skills* that let you interface with Code Optimizations issues. To invoke the extension,  type `@code_optimizations` followed by the skill and the necessary parameters:
 
 #### @code_optimizations /connect <Application_Insights_Resource_Name>

@@ -51,7 +51,7 @@
 1.4.2. Open Options dialog using **Tools-> Options...** command, then select **Extensions**
 
 
-1.4.3. Add a new feed named "Code Optimizations" with the URL "https://salmon-coast-03fbc8d1e.5.azurestaticapps.net/feed.xml".
+1.4.3. Add a new feed named "Code Optimizations" with the URL https://salmon-coast-03fbc8d1e.5.azurestaticapps.net/feed.xml
 <img src="IMAGES/Installation2.png" width="600" />
 
 

@@ -86,11 +86,11 @@ If you upgrade your Visual Studio 17.9 with Code Optimizations extension to Visu
 
 ### Visual Studio Extension
 
-3.1.1. Open VS\
+3.1.1. Open VS
 
-3.1.2. Open the repo for the app you have insights for in Code Optimizations\
+3.1.2. Open the repo for the app you have insights for in Code Optimizations
 
-3.1.3. Open GitHub Copilot Chat\
+3.1.3. Open GitHub Copilot Chat
 
 3.1.4. The Code Optimizations (preview) extension introduces an "agent" called `@code_optimizations` with a few commands or *skills* that let you interface with Code Optimizations issues. To invoke the extension,  type `@code_optimizations` followed by the skill and the necessary parameters:
 
@@ -99,6 +99,8 @@ If you upgrade your Visual Studio 17.9 with Code Optimizations extension to Visu
 where <Application_Insights_Resource_Name> is the name of the Application Insights resource. The command will pull the top issues from Code Optimizations, map them to source code in your local repo and try suggesting fixes / recommendations. It will automatically generate the first fix it's able to offer. To generate fixes for other issues, follow the instructions in the Copilot response.
 
 <img src="IMAGES/CodeOptimizations2.png" width="800" />
+
+Please note - by default the extension is retrieving Code Optimizations taht were generated in the past 24 hours. We are currently working on changes in this area and will document those as soon as the newer version ofr the extension is available. Thank you for your patience! 
 
 # Feedback
 Your feedback is important to us! If you have any questions or suggestions, please reach out to our email alias: codeoptimizations@microsoft.com or open an issue in this repo.

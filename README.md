@@ -100,7 +100,7 @@ where <Application_Insights_Resource_Name> is the name of the Application Insigh
 
 <img src="IMAGES/CodeOptimizations2.png" width="800" />
 
-Please note - by default the extension is retrieving Code Optimizations taht were generated in the past 24 hours. We are currently working on changes in this area and will document those as soon as the newer version ofr the extension is available. Thank you for your patience! 
+**Please note** - by default the extension is retrieving Code Optimizations that were generated in the past 24 hours. We are currently working on changes in this area and will document those changes as soon as the newer version of the extension is available. Thank you for your patience! 
 
 # Feedback
 Your feedback is important to us! If you have any questions or suggestions, please reach out to our email alias: codeoptimizations@microsoft.com or open an issue in this repo.
